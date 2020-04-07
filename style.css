@@ -825,15 +825,16 @@ opacity: .9;
   .expandAnswer{
     font-size: 20px;
   }
+  .about-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .about-image{
+    margin: 0 0 20px 0;
+  }
+  .about-content p{
+    font-size: 20px;
+  }
+  
 }
 
-.about-container{
-  display: flex;
-  flex-direction: column;
-}
-.about-image{
-  margin: 0 0 20px 0;
-}
-.about-content p{
-  font-size: 20px;
-}
