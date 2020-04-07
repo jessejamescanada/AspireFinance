@@ -186,6 +186,7 @@ opacity: .9;
 }
 .about-content{
   text-align: left;
+  margin: 0px 0px 0px 220px;
 }
 .about-content h2{
   text-align: center;
@@ -197,6 +198,9 @@ opacity: .9;
 }
 
 .about-image{
+  position: absolute;
+  top: 50px;
+  left: 10px;
   height: 300px;
   width: auto;
   border-radius: 10px;
@@ -831,6 +835,11 @@ opacity: .9;
   }
   .about-image{
     margin: 0 0 20px 0;
+    position: relative;
+  }
+  .about-content{
+    margin: 5px;
+    margin-top: 60px;
   }
   .about-content p{
     font-size: 20px;
