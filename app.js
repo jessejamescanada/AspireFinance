@@ -33,7 +33,8 @@ introRM.onclick = function(e){
 function closeMultipleModals(e){
   if(e.target.classList.contains('modal')){
     for(let i in modal) {
-      if(typeof modal[i].style !== 'undefined') modal[i].style.display='none'
+      if(typeof modal[i].style !== 'undefined') modal[i].style.display='none';
+      topBTN.style.display = 'block'
     }
   }
 }
@@ -42,6 +43,7 @@ function closeMultipleModals(e){
 for(let i = 0; i < closeX.length; i++){
   closeX[i].addEventListener('click', function(){
     modal[i].style.display = 'none'
+    topBTN.style.display = 'block'
   })
 }
 
@@ -50,6 +52,7 @@ for(let i = 0; i < closeX.length; i++){
 for(let i = 0; i < modalBTN.length; i++){
   modalBTN[i].addEventListener('click', function(){
     modal[i].style.display = 'block'
+    topBTN.style.display = 'none'
   })
 }
 

@@ -513,6 +513,9 @@ opacity: .9;
   color: rgb(204, 0, 0);
   cursor: pointer;
 }
+.modalButton h3{
+  color: black;
+}
 
 .intro-readMore{
   color: rgb(204, 0, 0);
