@@ -494,6 +494,15 @@ opacity: .9;
   }
 }
 
+.li-modal{
+  color: rgb(75, 75, 75);
+  list-style-type: square;
+  text-align: left;
+  margin: 5px auto 0;
+}
+
+
+
 .modal-content h2{
   margin-bottom: 50px;
 }
@@ -807,6 +816,9 @@ opacity: .9;
   }
   .modalButton{
     font-size: 18px;
+  }
+  #modal3 h2{
+    margin: 5px 0;
   }
   .mortgages-container{
     width: 90%;
