@@ -19,6 +19,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.heading{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  text-decoration: underline;
+}
 .container{
   display: flex;
   flex-direction: column;
@@ -448,6 +454,7 @@ opacity: .9;
 }
 
 .top-btn{
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -803,6 +810,7 @@ opacity: .9;
   #what{
     height: auto;
   }
+
   .services-container{
     display: flex;
     flex-direction: column;
@@ -857,7 +865,7 @@ opacity: .9;
   .about-content p{
     font-size: 20px;
   }
-  #showcase{}
+
   .container{
     display: flex;
     flex-direction: column;
