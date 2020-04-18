@@ -472,14 +472,14 @@ opacity: .9;
   font-size: 21px;
   margin-bottom: 20px;
   border-bottom: 1px solid #fff;
-  text-align: left;
+  text-align: center;
 }
 .legal-container a{
   color: #fff;
 
 }
 .legal-container p{
-  text-align: left;
+  text-align: center;
   margin-bottom: 4px;
 }
 .social-container{
