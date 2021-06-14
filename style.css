@@ -277,6 +277,13 @@ opacity: .9;
 #mortgages{
   
 }
+.mortgage-logo{
+
+  margin: auto;
+  margin-top: 10px;
+  width: 200px;
+  height: auto;
+}
 
 #mortgages h2{
   margin-top: 30px;
@@ -723,6 +730,10 @@ opacity: .9;
     justify-content: center;
     text-align: center;
     margin: 15px auto;
+  }
+  .mortgage-logo-footer{
+    width: 100%;
+    height: auto;
   }
   .aspire-sterl-container{
     display: flex;
